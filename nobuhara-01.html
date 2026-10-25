@@ -42,11 +42,9 @@
   figure{margin:30px 0 34px;}
   figure img{width:100%;display:block;border:1px solid var(--hairline);border-radius:6px;}
   figcaption{font-size:12.5px;color:var(--sub);margin-top:10px;line-height:1.7;}
-  .videos{margin:34px 0;display:grid;gap:14px;}
-  .video-card{display:block;border:1px solid var(--hairline);background:#fff;border-radius:10px;padding:18px 20px;text-decoration:none;color:var(--ink);}
-  .video-card:hover{border-color:var(--accent);}
-  .video-card .vtitle{font-weight:700;font-size:15.5px;}
-  .video-card .vdesc{font-size:13px;color:var(--sub);margin-top:4px;}
+  .video-embed{position:relative;width:100%;aspect-ratio:16/9;margin:34px 0 10px;background:#000;border-radius:10px;overflow:hidden;}
+  .video-embed iframe{position:absolute;inset:0;width:100%;height:100%;border:0;}
+  .video-caption{font-size:13px;color:var(--sub);margin:0 0 14px;line-height:1.7;}
   .note{background:#fff;border:1px solid var(--hairline);border-radius:10px;padding:20px 22px;font-size:14px;margin:30px 0;}
   ul{padding-left:1.4em;}
   li{margin:8px 0;}
@@ -68,7 +66,7 @@
       <div><dt>開催日</dt><dd>2026年9月23日（水）</dd></div>
       <div><dt>講師</dt><dd>信原幸弘（東京大学名誉教授）</dd></div>
       <div><dt>形式</dt><dd>レクチャー＋ディスカッション</dd></div>
-      <div><dt>主催</dt><dd>Technel合同会社</dd></div>
+      <div><dt>主催</dt><dd>意識研究財団</dd></div>
     </dl>
   </div>
 </header>
@@ -76,12 +74,10 @@
 <main>
 
 <h2><span class="h2-en">VIDEOS</span>講義動画</h2>
-<div class="videos">
-  <a class="video-card" id="video-lecture" href="https://youtu.be/dJ0VDnwpslg" target="_blank" rel="noopener">
-    <span class="vtitle">▶ 講義動画（約2時間11分）</span>
-    <span class="vdesc">信原先生のレクチャー部分。冒頭の自己紹介と終盤のディスカッションをカットした、講義に集中できる編集版です。講義中の質問・応答は含みます。</span>
-  </a>
+<div class="video-embed">
+  <iframe src="https://www.youtube-nocookie.com/embed/J2AFGIElmMY" title="信原ゼミ 第1回 心身二元論の誘惑（講義動画）" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
 </div>
+<p class="video-caption">講義動画（約2時間10分）。信原先生のレクチャー部分です。冒頭の自己紹介と講義後のディスカッションはカットしています。講義中の質問・応答は含みます。</p>
 <div class="note">動画はYouTube限定公開です。リンクを知っている方のみ視聴できます。※以下の目次のタイムスタンプは講義動画の再生時間に対応しています。</div>
 
 <h2><span class="h2-en">OVERVIEW</span>概要</h2>
@@ -166,10 +162,10 @@
 
 <div class="note">
 <strong>次回</strong>：第2回 物的一元論の挑戦（心脳同一説・機能主義）／2026年10月28日（水）19:30〜<br>
-発表ゼミは2027年1月から毎月第2水曜に開催予定です。
+発表ゼミは2027年3月から毎月第2水曜に開催予定です。
 </div>
 
-<p class="foot">このレポートはZoom録画の文字起こしをもとにAIが作成し、Technel事務局が確認したものです。発言の要約にあたって表現を整えています。<br>
+<p class="foot">このレポートはZoom録画の文字起こしをもとにAIが作成し、意識研究財団 事務局が確認したものです。発言の要約にあたって表現を整えています。<br>
 <a href="index.html">← 配信サイトトップに戻る</a></p>
 
 </main>
